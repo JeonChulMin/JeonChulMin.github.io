@@ -1,11 +1,11 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: 금융 빅데이터 아이디어 공모전
+subtitle: 빅데이터를 활용한 초기 창업자들을 위한 공유주방 중개 서비스
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: bcbigdata.jpg
+thumbnail: bcbigdata.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

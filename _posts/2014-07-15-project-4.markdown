@@ -1,11 +1,11 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: 2018 한이음 공모전
+subtitle: 여름철 해충 퇴치를 위한 친환경 스마트 드론
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: hbb.jpg
+thumbnail: hbb.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

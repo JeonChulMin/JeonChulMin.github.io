@@ -1,11 +1,11 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Smart Delivery+
+subtitle: 빅데이터를 활용한 IoT 시스템 개발(feat. 커넥티드 카)
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2020-04-23
+img: smartdelivery.jpg
+thumbnail: smartdelivery.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
