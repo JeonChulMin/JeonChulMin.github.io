@@ -1,37 +1,66 @@
 <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Skills</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+    <div class="row text-center">
+
+
+      <div class="col-md-4">
+        {% for sk1 in site.skills_1 %}
+        <h4 align="left">{{ sk1.skill }}</h4>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-red w3-center" style="width:{{ sk1.value }}%">{{ sk1.value }}%</div>
+        </div><br>
+        {% endfor %}
+      </div>
+
+      <div class="col-md-4">
+        {% for sk2 in site.skills_2 %}
+        <h4 align="left">{{ sk2.skill }}</h4>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-green w3-center" style="width:{{ sk2.value }}%">{{ sk2.value }}%</div>
+        </div><br>
+        {% endfor %}
+      </div>
+
+      <div class="col-md-4">
+        {% for sk3 in site.skills_3 %}
+        <h4 align="left">{{ sk3.skill }}</h4>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-blue w3-center" style="width:{{ sk3.value }}%">{{ sk3.value }}%</div>
+        </div><br>
+        {% endfor %}
+      </div>
+
+
+      {% comment %}
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Responsive Design</h4>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+
+
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Web Security</h4>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          quo inventore harum ex magni, dicta impedit.</p>
+      </div> {% endcomment %}
+
+
+    </div>
+  </div>
+</section>

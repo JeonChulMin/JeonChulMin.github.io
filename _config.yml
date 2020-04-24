@@ -18,16 +18,126 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: "CODING NOTE"
+email: "jeonchulmin@naver.com"
+description: "빅데이터 + 개발자"
+  #>- # this means to ignore newlines until "baseurl:"
+  #Write an awesome description for your new site here. You can edit this
+  #line in _config.yml. It will appear in your document head meta (for
+  #Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jeonchulmin.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+
+
+# Experience Settings
+experience :
+  - start : 2017-05-03
+    end : 2018-05-06
+    experience : company name, title
+
+# Skills settings
+skills_1 : 
+  - skill : JAVA
+    value : 85  # Percent value
+  - skill : SQL(Oracle)
+    value : 70  # Percent value
+  - skill : PYTHON
+    value : 50  # Percent value
+  - skill : R
+    value : 40  # Percent value
+        
+
+skills_2 : 
+  - skill : SPRING FRAMEWORK
+    value : 60  # Percent value
+  - skill : HTML5 & CSS3
+    value : 50  # Percent value
+  - skill : JAVA SCRIPT
+    value : 60  # Percent value
+  - skill : HADOOP & HIVE
+    value : 70  # Percent value
+
+skills_3 : 
+  - skill : ANDROID
+    value : 60  # Percent value
+  - skill : LINUX
+    value : 50  # Percent value
+  - skill : DJANGO
+    value : 40  # Percent value
+
+# Activities Settings
+
+activity:
+  - startDate : 2017.03
+    endDate : 2018.12
+    description : Advice 동아리
+    play1 : 알고리즘 스터디 및 대회 준비 (프로그래머스, 백준), 동아리원
+    play2 : 2018 한이음 공모전, 팀장 역할
+  - startDate : 2018.09
+    endDate : 2018.12
+    description : 공로장학생(과제 조교)
+    play1 : 컴퓨터프로그래밍 및 실습 (Java)
+    play2 : 통신시스템 프로그래밍 및 실습 (Linux)
+
+# Team names, titles and social links
+people:
+- name: 입선
+  pic: hanium2
+  position: 2018 한이음 공모전
+  social:
+    - title: #
+      url: #
+    - title: #
+      url: #
+    - title: #
+      url: #
+
+- name: 우수상
+  pic: multi2
+  position: 교육 우수자
+  social:
+    - title: #
+      url: #
+    - title: #
+      url: #
+    - title: #
+      url: #
+
+- name: SQLD 자격증 취득
+  pic: sqld
+  position: 2019.09.24
+  social:
+    - title: #
+      url: #
+    - title: #
+      url: #
+    - title: #
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# SASS SCSS
+sass:
+ style: compressed
+
 
 # Build settings
 theme: minima
@@ -53,3 +163,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
