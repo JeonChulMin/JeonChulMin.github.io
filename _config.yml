@@ -77,9 +77,9 @@ activity:
     play2 : 2018 한이음 공모전, 팀장 역할
   - startDate : 2018.09
     endDate : 2018.12
-    description : 공로장학생(과제 조교)
-    play1 : 컴퓨터프로그래밍 및 실습 (Java)
-    play2 : 통신시스템 프로그래밍 및 실습 (Linux)
+    description : 공로장학생
+    play1 : 컴퓨터프로그래밍 및 실습 과제 조교 (Java)
+    play2 : 통신시스템 프로그래밍 및 실습 과제 조교 (Linux)
 
 # Team names, titles and social links
 people:
